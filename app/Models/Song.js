@@ -41,7 +41,7 @@ export default class Song {
         <div class="card-footer">
         <audio controls>
           <source src="${this.preview}"> </audio>
-          <button type="button" class="btn btn-xl btn-success ml-4 mb-5" onclick="app.songsController.addSong()">Add!</button>
+          <button type="button" class="btn btn-xl btn-success ml-4 mb-5" onclick="app.songsController.addSong(${this.id})">Add!</button>
         </div>
     </div>
     </img>`
